@@ -1,15 +1,39 @@
-I'm currently focused on the user's request for a concise description of the HTML. Initial examination reveals it's a single HTML file. I am now working on understanding its key elements to summarize it effectively.
+# AI Image Generation Tool
 
-Describing the App's Core Function
+A feature-rich, single-page web application that uses the Google Gemini API to generate and edit images from text, voice, or visual prompts.
 
-I've examined the code and the user's request, and I'm homing in on a concise description. The HTML structure is clear, and the inclusion of Tailwind CSS is evident. The key elements are in place for the image generation application, with the generation button and prompt input prominently featured. Now, I'm working to summarize the application's core functionality, starting with that it is a web-based application.
+## Features
 
-Formulating the Summary
+- **Text-to-Image**: Generate images from text descriptions
+- **Voice Input**: Create prompts using speech recognition
+- **Image-to-Image**: Upload images for editing and variation
+- **Style Selection**: Multiple art styles including Cinematic, Watercolor, Cyberpunk, and more
+- **Export Options**: Download generated images in various formats
 
-I'm now zeroing in on the best wording for the concise description, focusing on key features. I've considered several options, and the current frontrunner highlights its comprehensive and multi-modal nature. I'm aiming for a description that clearly encapsulates its core functionality and its advanced features within a single sentence.
+## Tech Stack
 
-Defining the Core Application
+- **Frontend**: HTML, CSS, JavaScript, Tailwind CSS
+- **AI**: Google Gemini API
+- **Icons**: Lucide Icons
 
-I've crafted a concise description of the HTML, emphasizing its functionality. The code constructs a feature-rich, single-page web application. It leverages the Google Gemini API, allowing users to generate and edit images from various input methods. I've opted for a description that encapsulates its core purpose and highlights its multi-modal features without excessive detail. The text I have constructed is ready to be included in the final summary.
+## Usage
 
-This is a feature-rich, single-page web application that uses the Google Gemini API to generate and edit images from text, voice, or visual prompts.
+Open \`index.html\` in a browser or serve it locally:
+
+\`\`\`bash
+python3 -m http.server 8000
+\`\`\`
+
+Then navigate to \`http://localhost:8000\`.
+
+## Configuration
+
+Add your Google Gemini API key in the app settings or via environment variable:
+
+\`\`\`
+GOOGLE_API_KEY=your_api_key_here
+\`\`\`
+
+## License
+
+MIT
